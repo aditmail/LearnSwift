@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831DBEF82ADFC3C500AF5657 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBEF72ADFC3C500AF5657 /* Employee.swift */; };
+		831DBEFC2ADFC43C00AF5657 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBEFA2ADFC43B00AF5657 /* EmployeeTableViewCell.swift */; };
+		831DBEFD2ADFC43C00AF5657 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */; };
+		831DBEFF2ADFC5A300AF5657 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */; };
+		831DBF022ADFD3A200AF5657 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 831DBF012ADFD3A200AF5657 /* Alamofire */; };
+		83B63ED62ADF7BCC00E6063D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B63ED52ADF7BCC00E6063D /* Profile.swift */; };
 		83D79EF72AD791FC0018536E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EF62AD791FC0018536E /* AppDelegate.swift */; };
 		83D79EF92AD791FC0018536E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EF82AD791FC0018536E /* SceneDelegate.swift */; };
 		83D79EFB2AD791FC0018536E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EFA2AD791FC0018536E /* ViewController.swift */; };
@@ -17,6 +23,10 @@
 		83D79F112AD791FD0018536E /* explore_ios_apps_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79F102AD791FD0018536E /* explore_ios_apps_swiftTests.swift */; };
 		83D79F1B2AD791FD0018536E /* explore_ios_apps_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79F1A2AD791FD0018536E /* explore_ios_apps_swiftUITests.swift */; };
 		83D79F1D2AD791FD0018536E /* explore_ios_apps_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79F1C2AD791FD0018536E /* explore_ios_apps_swiftUITestsLaunchTests.swift */; };
+		83E4F6BF2AD8F319006096BD /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4F6BE2AD8F319006096BD /* NewViewController.swift */; };
+		83E4F6C32AD9389E006096BD /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4F6C12AD9389E006096BD /* ProfileTableViewCell.swift */; };
+		83E4F6C42AD9389E006096BD /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E4F6C22AD9389E006096BD /* ProfileTableViewCell.xib */; };
+		83E4F6C82AD940C8006096BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4F6C72AD940C8006096BD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831DBEF72ADFC3C500AF5657 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		831DBEFA2ADFC43B00AF5657 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+		831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		83B63ED52ADF7BCC00E6063D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		83D79EF32AD791FC0018536E /* explore_ios_apps_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = explore_ios_apps_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D79EF62AD791FC0018536E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D79EF82AD791FC0018536E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,10 @@
 		83D79F162AD791FD0018536E /* explore_ios_apps_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = explore_ios_apps_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D79F1A2AD791FD0018536E /* explore_ios_apps_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_ios_apps_swiftUITests.swift; sourceTree = "<group>"; };
 		83D79F1C2AD791FD0018536E /* explore_ios_apps_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explore_ios_apps_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83E4F6BE2AD8F319006096BD /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		83E4F6C12AD9389E006096BD /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		83E4F6C22AD9389E006096BD /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		83E4F6C72AD940C8006096BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831DBF022ADFD3A200AF5657 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83B63ED42ADF7BBB00E6063D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				83B63ED52ADF7BCC00E6063D /* Profile.swift */,
+				831DBEF72ADFC3C500AF5657 /* Employee.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		83D79EEA2AD791FC0018536E = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +130,10 @@
 		83D79EF52AD791FC0018536E /* explore_ios_apps_swift */ = {
 			isa = PBXGroup;
 			children = (
+				83B63ED42ADF7BBB00E6063D /* Entity */,
+				83E4F6C02AD93870006096BD /* TableViewCell */,
 				83D79EF62AD791FC0018536E /* AppDelegate.swift */,
+				83E4F6C72AD940C8006096BD /* ProfileViewController.swift */,
 				83D79EF82AD791FC0018536E /* SceneDelegate.swift */,
 				83D79EFA2AD791FC0018536E /* ViewController.swift */,
 				83D79EFC2AD791FC0018536E /* Main.storyboard */,
@@ -109,6 +141,8 @@
 				83D79F042AD791FD0018536E /* LaunchScreen.storyboard */,
 				83D79F072AD791FD0018536E /* Info.plist */,
 				83D79EFF2AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld */,
+				83E4F6BE2AD8F319006096BD /* NewViewController.swift */,
+				831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */,
 			);
 			path = explore_ios_apps_swift;
 			sourceTree = "<group>";
@@ -130,6 +164,17 @@
 			path = explore_ios_apps_swiftUITests;
 			sourceTree = "<group>";
 		};
+		83E4F6C02AD93870006096BD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				83E4F6C12AD9389E006096BD /* ProfileTableViewCell.swift */,
+				83E4F6C22AD9389E006096BD /* ProfileTableViewCell.xib */,
+				831DBEFA2ADFC43B00AF5657 /* EmployeeTableViewCell.swift */,
+				831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +191,9 @@
 			dependencies = (
 			);
 			name = explore_ios_apps_swift;
+			packageProductDependencies = (
+				831DBF012ADFD3A200AF5657 /* Alamofire */,
+			);
 			productName = explore_ios_apps_swift;
 			productReference = 83D79EF32AD791FC0018536E /* explore_ios_apps_swift.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 83D79EEA2AD791FC0018536E;
+			packageReferences = (
+				831DBF002ADFD3A200AF5657 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 83D79EF42AD791FC0018536E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D79F062AD791FD0018536E /* LaunchScreen.storyboard in Resources */,
+				831DBEFD2ADFC43C00AF5657 /* EmployeeTableViewCell.xib in Resources */,
+				83E4F6C42AD9389E006096BD /* ProfileTableViewCell.xib in Resources */,
 				83D79F032AD791FD0018536E /* Assets.xcassets in Resources */,
 				83D79EFE2AD791FC0018536E /* Main.storyboard in Resources */,
 			);
@@ -262,7 +315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D79EFB2AD791FC0018536E /* ViewController.swift in Sources */,
+				831DBEF82ADFC3C500AF5657 /* Employee.swift in Sources */,
+				83B63ED62ADF7BCC00E6063D /* Profile.swift in Sources */,
+				831DBEFC2ADFC43C00AF5657 /* EmployeeTableViewCell.swift in Sources */,
 				83D79EF72AD791FC0018536E /* AppDelegate.swift in Sources */,
+				83E4F6BF2AD8F319006096BD /* NewViewController.swift in Sources */,
+				83E4F6C32AD9389E006096BD /* ProfileTableViewCell.swift in Sources */,
+				831DBEFF2ADFC5A300AF5657 /* EmployeeViewController.swift in Sources */,
+				83E4F6C82AD940C8006096BD /* ProfileViewController.swift in Sources */,
 				83D79EF92AD791FC0018536E /* SceneDelegate.swift in Sources */,
 				83D79F012AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld in Sources */,
 			);
@@ -455,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +542,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -602,6 +662,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		831DBF002ADFD3A200AF5657 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		831DBF012ADFD3A200AF5657 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 831DBF002ADFD3A200AF5657 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		83D79EFF2AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld */ = {

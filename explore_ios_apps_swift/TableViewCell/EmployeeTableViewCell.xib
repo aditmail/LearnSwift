@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmployeeCell" rowHeight="111" id="KGk-i7-Jjw" customClass="EmployeeTableViewCell" customModule="explore_ios_apps_swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6a-WG-Wxk">
+                        <rect key="frame" x="20" y="20" width="41" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvNama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8i7-29-ceJ">
+                        <rect key="frame" x="89" y="20" width="53" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvUmur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9W-wl-mW4">
+                        <rect key="frame" x="89" y="46" width="51" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Umur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKC-VT-VwY">
+                        <rect key="frame" x="20" y="40" width="38" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Gaji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewa-H5-7pm">
+                        <rect key="frame" x="20" y="72" width="26" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvGaji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBx-Op-3T5">
+                        <rect key="frame" x="89" y="72" width="40" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fKC-VT-VwY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="3Cw-4K-IdZ"/>
+                    <constraint firstItem="XBx-Op-3T5" firstAttribute="top" secondItem="I9W-wl-mW4" secondAttribute="bottom" constant="8" symbolic="YES" id="5su-7W-0dc"/>
+                    <constraint firstItem="8i7-29-ceJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="6kJ-oE-yCN"/>
+                    <constraint firstItem="ewa-H5-7pm" firstAttribute="firstBaseline" secondItem="fKC-VT-VwY" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="8xP-7Q-alz"/>
+                    <constraint firstItem="8i7-29-ceJ" firstAttribute="leading" secondItem="A6a-WG-Wxk" secondAttribute="trailing" constant="28" id="Ds9-sl-WVV"/>
+                    <constraint firstItem="ewa-H5-7pm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="QhR-9Y-wJp"/>
+                    <constraint firstItem="I9W-wl-mW4" firstAttribute="top" secondItem="8i7-29-ceJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Vef-hV-U6A"/>
+                    <constraint firstAttribute="bottom" secondItem="ewa-H5-7pm" secondAttribute="bottom" constant="21" id="fin-lC-WXs"/>
+                    <constraint firstItem="A6a-WG-Wxk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="gVT-iV-Q0I"/>
+                    <constraint firstItem="A6a-WG-Wxk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="m3E-pG-grJ"/>
+                    <constraint firstItem="XBx-Op-3T5" firstAttribute="leading" secondItem="ewa-H5-7pm" secondAttribute="trailing" constant="43" id="sxf-Cx-fx0"/>
+                    <constraint firstItem="fKC-VT-VwY" firstAttribute="firstBaseline" secondItem="A6a-WG-Wxk" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="w3j-4H-YxY"/>
+                    <constraint firstItem="I9W-wl-mW4" firstAttribute="leading" secondItem="fKC-VT-VwY" secondAttribute="trailing" constant="31" id="wjd-p6-e4J"/>
+                    <constraint firstAttribute="bottom" secondItem="XBx-Op-3T5" secondAttribute="bottom" constant="21" id="wmD-IG-NJP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="tvGaji" destination="XBx-Op-3T5" id="R9x-66-zdy"/>
+                <outlet property="tvName" destination="8i7-29-ceJ" id="tyL-ao-yLS"/>
+                <outlet property="tvUmur" destination="I9W-wl-mW4" id="bsO-eS-ZdB"/>
+            </connections>
+            <point key="canvasLocation" x="188.40579710144928" y="128.90625"/>
+        </tableViewCell>
+    </objects>
+</document>
