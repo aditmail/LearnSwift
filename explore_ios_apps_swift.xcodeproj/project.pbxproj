@@ -12,7 +12,15 @@
 		831DBEFD2ADFC43C00AF5657 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */; };
 		831DBEFF2ADFC5A300AF5657 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */; };
 		831DBF022ADFD3A200AF5657 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 831DBF012ADFD3A200AF5657 /* Alamofire */; };
+		837D2A862AE0C8820036F5BF /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 837D2A842AE0C8820036F5BF /* DataModel.xcdatamodeld */; };
+		837D2A892AE0CCC60036F5BF /* CRUDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D2A872AE0CCC60036F5BF /* CRUDTableViewCell.swift */; };
+		837D2A8A2AE0CCC60036F5BF /* CRUDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837D2A882AE0CCC60036F5BF /* CRUDTableViewCell.xib */; };
+		837D2A8C2AE0CD850036F5BF /* CRUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D2A8B2AE0CD850036F5BF /* CRUDViewController.swift */; };
+		837D2A8E2AE0CDE50036F5BF /* CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D2A8D2AE0CDE50036F5BF /* CRUD.swift */; };
 		83B63ED62ADF7BCC00E6063D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B63ED52ADF7BCC00E6063D /* Profile.swift */; };
+		83BB8FC52AE10507004C1F59 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB8FC42AE10507004C1F59 /* APIService.swift */; };
+		83BB8FC82AE1077F004C1F59 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB8FC72AE1077F004C1F59 /* EmployeeViewModel.swift */; };
+		83BB8FCA2AE119CB004C1F59 /* CRUDVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB8FC92AE119CB004C1F59 /* CRUDVIewModel.swift */; };
 		83D79EF72AD791FC0018536E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EF62AD791FC0018536E /* AppDelegate.swift */; };
 		83D79EF92AD791FC0018536E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EF82AD791FC0018536E /* SceneDelegate.swift */; };
 		83D79EFB2AD791FC0018536E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D79EFA2AD791FC0018536E /* ViewController.swift */; };
@@ -51,7 +59,15 @@
 		831DBEFA2ADFC43B00AF5657 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
 		831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		837D2A852AE0C8820036F5BF /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		837D2A872AE0CCC60036F5BF /* CRUDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDTableViewCell.swift; sourceTree = "<group>"; };
+		837D2A882AE0CCC60036F5BF /* CRUDTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRUDTableViewCell.xib; sourceTree = "<group>"; };
+		837D2A8B2AE0CD850036F5BF /* CRUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDViewController.swift; sourceTree = "<group>"; };
+		837D2A8D2AE0CDE50036F5BF /* CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUD.swift; sourceTree = "<group>"; };
 		83B63ED52ADF7BCC00E6063D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		83BB8FC42AE10507004C1F59 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		83BB8FC72AE1077F004C1F59 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		83BB8FC92AE119CB004C1F59 /* CRUDVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDVIewModel.swift; sourceTree = "<group>"; };
 		83D79EF32AD791FC0018536E /* explore_ios_apps_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = explore_ios_apps_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D79EF62AD791FC0018536E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D79EF82AD791FC0018536E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,13 +114,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		837D2A8F2AE104520036F5BF /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				83BB8FC42AE10507004C1F59 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
 		83B63ED42ADF7BBB00E6063D /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				83B63ED52ADF7BCC00E6063D /* Profile.swift */,
 				831DBEF72ADFC3C500AF5657 /* Employee.swift */,
+				837D2A8D2AE0CDE50036F5BF /* CRUD.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		83BB8FC62AE10766004C1F59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83BB8FC72AE1077F004C1F59 /* EmployeeViewModel.swift */,
+				83BB8FC92AE119CB004C1F59 /* CRUDVIewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		83D79EEA2AD791FC0018536E = {
@@ -130,6 +164,9 @@
 		83D79EF52AD791FC0018536E /* explore_ios_apps_swift */ = {
 			isa = PBXGroup;
 			children = (
+				83BB8FC62AE10766004C1F59 /* ViewModel */,
+				837D2A8F2AE104520036F5BF /* APIService */,
+				837D2A842AE0C8820036F5BF /* DataModel.xcdatamodeld */,
 				83B63ED42ADF7BBB00E6063D /* Entity */,
 				83E4F6C02AD93870006096BD /* TableViewCell */,
 				83D79EF62AD791FC0018536E /* AppDelegate.swift */,
@@ -143,6 +180,7 @@
 				83D79EFF2AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld */,
 				83E4F6BE2AD8F319006096BD /* NewViewController.swift */,
 				831DBEFE2ADFC5A300AF5657 /* EmployeeViewController.swift */,
+				837D2A8B2AE0CD850036F5BF /* CRUDViewController.swift */,
 			);
 			path = explore_ios_apps_swift;
 			sourceTree = "<group>";
@@ -171,6 +209,8 @@
 				83E4F6C22AD9389E006096BD /* ProfileTableViewCell.xib */,
 				831DBEFA2ADFC43B00AF5657 /* EmployeeTableViewCell.swift */,
 				831DBEFB2ADFC43B00AF5657 /* EmployeeTableViewCell.xib */,
+				837D2A872AE0CCC60036F5BF /* CRUDTableViewCell.swift */,
+				837D2A882AE0CCC60036F5BF /* CRUDTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -286,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D79F062AD791FD0018536E /* LaunchScreen.storyboard in Resources */,
+				837D2A8A2AE0CCC60036F5BF /* CRUDTableViewCell.xib in Resources */,
 				831DBEFD2ADFC43C00AF5657 /* EmployeeTableViewCell.xib in Resources */,
 				83E4F6C42AD9389E006096BD /* ProfileTableViewCell.xib in Resources */,
 				83D79F032AD791FD0018536E /* Assets.xcassets in Resources */,
@@ -317,14 +358,21 @@
 				83D79EFB2AD791FC0018536E /* ViewController.swift in Sources */,
 				831DBEF82ADFC3C500AF5657 /* Employee.swift in Sources */,
 				83B63ED62ADF7BCC00E6063D /* Profile.swift in Sources */,
+				837D2A892AE0CCC60036F5BF /* CRUDTableViewCell.swift in Sources */,
 				831DBEFC2ADFC43C00AF5657 /* EmployeeTableViewCell.swift in Sources */,
 				83D79EF72AD791FC0018536E /* AppDelegate.swift in Sources */,
+				83BB8FC52AE10507004C1F59 /* APIService.swift in Sources */,
+				837D2A8C2AE0CD850036F5BF /* CRUDViewController.swift in Sources */,
+				83BB8FCA2AE119CB004C1F59 /* CRUDVIewModel.swift in Sources */,
 				83E4F6BF2AD8F319006096BD /* NewViewController.swift in Sources */,
 				83E4F6C32AD9389E006096BD /* ProfileTableViewCell.swift in Sources */,
 				831DBEFF2ADFC5A300AF5657 /* EmployeeViewController.swift in Sources */,
+				83BB8FC82AE1077F004C1F59 /* EmployeeViewModel.swift in Sources */,
 				83E4F6C82AD940C8006096BD /* ProfileViewController.swift in Sources */,
+				837D2A862AE0C8820036F5BF /* DataModel.xcdatamodeld in Sources */,
 				83D79EF92AD791FC0018536E /* SceneDelegate.swift in Sources */,
 				83D79F012AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld in Sources */,
+				837D2A8E2AE0CDE50036F5BF /* CRUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,8 +549,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = explore_ios_apps_swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -515,8 +565,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,8 +579,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = explore_ios_apps_swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,8 +595,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,13 +609,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2ESFFMXSH;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,13 +633,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditmail.explore-ios-apps-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -683,6 +747,16 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
+		837D2A842AE0C8820036F5BF /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				837D2A852AE0C8820036F5BF /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 837D2A852AE0C8820036F5BF /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		83D79EFF2AD791FC0018536E /* explore_ios_apps_swift.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

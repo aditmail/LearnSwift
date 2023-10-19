@@ -18,3 +18,12 @@ struct Employee:Decodable{
     }
 }
 
+struct EmployeeDTO: Decodable{
+    var status: String
+    var data: [Employee]
+    
+    enum CodingKeys: String, CodingKey{
+        case status = "status"
+        case data = "data"
+    }
+}
