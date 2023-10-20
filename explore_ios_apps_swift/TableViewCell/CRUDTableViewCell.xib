@@ -9,42 +9,57 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRUDCell" rowHeight="87" id="KGk-i7-Jjw" customClass="CRUDTableViewCell" customModule="explore_ios_apps_swift" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="380" height="87"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRUDCell" rowHeight="113" id="KGk-i7-Jjw" customClass="CRUDTableViewCell" customModule="explore_ios_apps_swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="113"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="380" height="87"/>
+                <rect key="frame" x="0.0" y="0.0" width="380" height="113"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAn-Wf-If5">
-                        <rect key="frame" x="92" y="34" width="45" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAn-Wf-If5">
+                        <rect key="frame" x="86" y="35" width="45" height="19.5"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fW9-Mv-Rkt">
-                        <rect key="frame" x="20" y="34" width="19" height="18"/>
+                        <rect key="frame" x="20" y="12" width="19" height="12"/>
                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvSalary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6r-4K-duL">
-                        <rect key="frame" x="274" y="34" width="52.5" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ut-Di-BPi">
+                        <rect key="frame" x="20" y="70" width="30" height="12"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obb-cr-Ku1">
+                        <rect key="frame" x="20" y="39" width="28" height="12"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="tvSalary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6r-4K-duL">
+                        <rect key="frame" x="85" y="67" width="52.5" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Z6r-4K-duL" firstAttribute="leading" secondItem="kAn-Wf-If5" secondAttribute="trailing" constant="137" id="3Ig-tV-EIG"/>
-                    <constraint firstItem="kAn-Wf-If5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="62f-pg-u2w"/>
-                    <constraint firstAttribute="bottom" secondItem="fW9-Mv-Rkt" secondAttribute="bottom" constant="35" id="IMd-Vx-xPh"/>
-                    <constraint firstItem="fW9-Mv-Rkt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="ZU8-hA-1CC"/>
-                    <constraint firstItem="fW9-Mv-Rkt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="gkR-VW-d4N"/>
-                    <constraint firstItem="kAn-Wf-If5" firstAttribute="leading" secondItem="fW9-Mv-Rkt" secondAttribute="trailing" constant="53" id="ieW-Gj-s54"/>
-                    <constraint firstAttribute="bottom" secondItem="Z6r-4K-duL" secondAttribute="bottom" constant="35" id="nXq-IV-1fS"/>
-                    <constraint firstItem="Z6r-4K-duL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="p7q-yG-A4k"/>
-                    <constraint firstAttribute="bottom" secondItem="kAn-Wf-If5" secondAttribute="bottom" constant="35" id="r65-6V-W0m"/>
+                    <constraint firstItem="kAn-Wf-If5" firstAttribute="leading" secondItem="obb-cr-Ku1" secondAttribute="trailing" constant="36" id="2A9-cB-4yC"/>
+                    <constraint firstItem="5Ut-Di-BPi" firstAttribute="top" secondItem="obb-cr-Ku1" secondAttribute="bottom" constant="19" id="6QY-V5-bH1"/>
+                    <constraint firstItem="obb-cr-Ku1" firstAttribute="top" secondItem="fW9-Mv-Rkt" secondAttribute="bottom" constant="15" id="BbM-kx-IsK"/>
+                    <constraint firstItem="5Ut-Di-BPi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="Km2-uo-IZY"/>
+                    <constraint firstItem="fW9-Mv-Rkt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="Onu-ku-Eh2"/>
+                    <constraint firstAttribute="bottom" secondItem="5Ut-Di-BPi" secondAttribute="bottom" constant="31" id="Rar-Pa-Jx0"/>
+                    <constraint firstItem="obb-cr-Ku1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="VYq-TJ-XLH"/>
+                    <constraint firstItem="Z6r-4K-duL" firstAttribute="top" secondItem="kAn-Wf-If5" secondAttribute="bottom" constant="12.5" id="a6s-Df-ml7"/>
+                    <constraint firstItem="kAn-Wf-If5" firstAttribute="top" secondItem="fW9-Mv-Rkt" secondAttribute="bottom" constant="11" id="hCI-vJ-FkM"/>
+                    <constraint firstItem="fW9-Mv-Rkt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="rSd-Y3-y2z"/>
+                    <constraint firstAttribute="bottom" secondItem="Z6r-4K-duL" secondAttribute="bottom" constant="29" id="ujF-Yc-GeC"/>
+                    <constraint firstItem="Z6r-4K-duL" firstAttribute="leading" secondItem="5Ut-Di-BPi" secondAttribute="trailing" constant="36" id="xmd-GZ-FHn"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -53,7 +68,7 @@
                 <outlet property="tvName" destination="kAn-Wf-If5" id="kEy-fP-NHl"/>
                 <outlet property="tvSalary" destination="Z6r-4K-duL" id="hYV-nK-IZg"/>
             </connections>
-            <point key="canvasLocation" x="181.15942028985509" y="82.03125"/>
+            <point key="canvasLocation" x="181.15942028985509" y="90.736607142857139"/>
         </tableViewCell>
     </objects>
 </document>
